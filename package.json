@@ -1,0 +1,39 @@
+{
+  "name": "easy-php-webpack-scaffold",
+  "version": "1.0.0",
+  "description": "This is a very basic scaffold for people that doesn't know any framework and need a fast-easy to learn structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch --mode=development",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpargar/ritie.git"
+  },
+  "author": "Miguel Parra Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpargar/ritie/issues"
+  },
+  "homepage": "https://github.com/mpargar/ritie#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
