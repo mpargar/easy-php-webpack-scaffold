@@ -39,8 +39,7 @@ class Database{
     public function post($command){
         $db=$this->getConnection();
         $commandSuccess=$db->query($command);
-        $lastId=$db->insert_id;
-        return array("success"=>$commandSuccess,"id"=>$lastId);
+        return array("success"=>$commandSuccess);
     }
 }
 
