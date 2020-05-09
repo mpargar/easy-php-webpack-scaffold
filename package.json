@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mpargar/ritie.git"
+    "url": "git+https://github.com/mpargar/easy-php-webpack-scaffold.git"
   },
   "author": "Miguel Parra Garcia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mpargar/ritie/issues"
+    "url": "https://github.com/mpargar/easy-php-webpack-scaffold/issues"
   },
-  "homepage": "https://github.com/mpargar/ritie#readme",
+  "homepage": "https://github.com/mpargar/easy-php-webpack-scaffold#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
